@@ -2629,10 +2629,13 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h2, #header h3, #header h4, #header h6 {
 			font-weight: bold;
 		}
-
+		#header h5
+		{
+			color:#dbd6d3;
+		}
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
@@ -2653,7 +2656,7 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: #dbd6d3;
 		}
 
 	#footer .copyright {
