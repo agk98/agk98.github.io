@@ -2124,13 +2124,13 @@ input, select, textarea {
 			}
 
 		.image.fit {
-			display: block;
+			display: inline;
 			margin: 0 0 2em 0;
-			width: 100%;
 		}
 
 			.image.fit img {
-				width: 100%;
+				max-width: 60%;
+				max-height: 75%;
 			}
 
 		.image.avatar {
